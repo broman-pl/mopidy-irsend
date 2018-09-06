@@ -1,0 +1,8 @@
+# Patterns to exclude from code versioning
+
+.DS_Store
+
+# IntelliJ files
+.idea/
+
+*.pyc

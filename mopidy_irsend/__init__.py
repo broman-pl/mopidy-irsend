@@ -10,8 +10,8 @@ __version__ = '0.1.0'
 
 class Extension(ext.Extension):
 
-    dist_name = 'Mopidy-LCD'
-    ext_name = 'LCD'
+    dist_name = 'Mopidy-IRSend'
+    ext_name = 'IRSend'
     version = __version__
 
     def get_default_config(self):
@@ -29,6 +29,6 @@ class Extension(ext.Extension):
         return schema
 
     def setup(self, registry):
-        from .actor import LCDFrontend
-        registry.add('frontend', LCDFrontend)
+        from .frontend import IRSendFrontend
+        registry.add('frontend', IRSendFrontend)
 

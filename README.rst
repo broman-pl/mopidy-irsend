@@ -2,7 +2,4 @@
 Mopidy IRSend
 ***************
 
-`Mopidy_ frontend for sending IR commands to speaker`
-
-
-_Mopidy: http://www.mopidy.com
+`Mopidy <http://www.mopidy.com>`_ frontend for sending IR commands to speaker

@@ -20,12 +20,6 @@ class Extension(ext.Extension):
 
     def get_config_schema(self):
         schema = super(Extension, self).get_config_schema()
-        schema['rs'] = config.Integer()
-        schema['en'] = config.Integer()
-        schema['d4'] = config.Integer()
-        schema['d5'] = config.Integer()
-        schema['d6'] = config.Integer()
-        schema['d7'] = config.Integer()
         return schema
 
     def setup(self, registry):
